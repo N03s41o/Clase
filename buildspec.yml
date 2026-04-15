@@ -9,5 +9,4 @@ phases:
       - echo "Preparando archivos para el S3..."
 artifacts:
   files:
-    - 'pagina/**/*' # Esto toma todo lo que esté en la carpeta pagina
-  discard-paths: no
+    - '**/*' 
